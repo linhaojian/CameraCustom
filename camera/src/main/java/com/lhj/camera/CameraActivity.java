@@ -4,6 +4,8 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
@@ -27,6 +29,7 @@ public class CameraActivity extends Activity {
                     .replace(R.id.fragment_container, mFCameraFragment)
                     .commit();
 //        }
+        CameraBuidler.setActivity(this);
     }
 
     public void onCancel(View view) {
@@ -50,6 +53,7 @@ public class CameraActivity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
         mFCameraFragment = null;
+        CameraBuidler.setActivity(null);
     }
 
     public void finishThis(){

@@ -1,6 +1,7 @@
 package com.lhj.test;
 
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -13,6 +14,7 @@ import com.lhj.camera.OnCameraResults;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
+    private CameraBuidler cameraBuidler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                CameraBuidler cameraBuidler = new CameraBuidler().setOnCameraResults(new OnCameraResults() {
+                cameraBuidler = new CameraBuidler().setOnCameraResults(new OnCameraResults() {
                     @Override
                     public void onSucces() {
                         Log.w("linhaojian","onSucces");

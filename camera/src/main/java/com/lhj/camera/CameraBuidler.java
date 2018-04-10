@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.os.Message;
 import android.support.v4.content.ContextCompat;
 
 /**
@@ -13,11 +14,16 @@ import android.support.v4.content.ContextCompat;
 
 public class CameraBuidler {
     private OnCameraResults onCameraResults;
-    private int CAMERA_ERROR = 0X100;
-    private int STORAGE_ERROR = 0X101;
+    public static final int CAMERA_ERROR = 0x100;
+    public static final int STORAGE_ERROR = 0x101;
+    private static CameraActivity activity;
 
     public CameraBuidler(){
 
+    }
+
+    public static void setActivity(CameraActivity cameraActivity){
+        activity = cameraActivity;
     }
 
     public CameraBuidler setOnCameraResults(OnCameraResults onCameraResults){
@@ -56,6 +62,12 @@ public class CameraBuidler {
             ;onCameraResults.onSucces();
         }
         return true;
+    }
+
+    public void takePicture(){
+        if(activity!=null){
+            activity.takePicture();
+        }
     }
 
 }
