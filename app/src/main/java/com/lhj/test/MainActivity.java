@@ -34,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
                     public void onError(int code, String msg) {
                         Log.e("linhaojian","code : "+code+"       msg : "+msg);
                     }
+
+                    @Override
+                    public void onBack(CameraActivity activity) {
+                        cameraBuidler.finish();
+                    }
                 }).buidler(MainActivity.this);
             }
         });

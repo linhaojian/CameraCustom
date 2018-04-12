@@ -7,4 +7,5 @@ package com.lhj.camera;
 public interface OnCameraResults {
     void onSucces();
     void onError(int code,String msg);
+    void onBack(CameraActivity activity);
 }

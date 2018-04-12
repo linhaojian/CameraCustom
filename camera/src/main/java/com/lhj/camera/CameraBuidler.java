@@ -13,7 +13,7 @@ import android.support.v4.content.ContextCompat;
  */
 
 public class CameraBuidler {
-    private OnCameraResults onCameraResults;
+    private static OnCameraResults onCameraResults;
     public static final int CAMERA_ERROR = 0x100;
     public static final int STORAGE_ERROR = 0x101;
     private static CameraActivity activity;
@@ -24,6 +24,14 @@ public class CameraBuidler {
 
     public static void setActivity(CameraActivity cameraActivity){
         activity = cameraActivity;
+        activity.setOnBackListeners(new CameraActivity.OnBackListeners() {
+            @Override
+            public void onBack() {
+                if(onCameraResults!=null){
+                    onCameraResults.onBack(activity);
+                }
+            }
+        });
     }
 
     public CameraBuidler setOnCameraResults(OnCameraResults onCameraResults){
@@ -72,8 +80,13 @@ public class CameraBuidler {
 
     public void finish(){
         if(activity!=null){
-            activity.finishThis();
+            activity.finish();
         }
+    }
+
+    public void release(){
+        activity=null;
+        onCameraResults=null;
     }
 
 }

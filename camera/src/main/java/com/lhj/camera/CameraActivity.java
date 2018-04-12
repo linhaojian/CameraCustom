@@ -16,6 +16,7 @@ import android.view.View;
 public class CameraActivity extends Activity {
 
     private CameraFragment mFCameraFragment;
+    private OnBackListeners onBackListeners;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,13 +54,23 @@ public class CameraActivity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
         mFCameraFragment = null;
+        onBackListeners = null;
         CameraBuidler.setActivity(null);
     }
 
     public void finishThis(){
-        finish();
+        if(onBackListeners!=null){
+            onBackListeners.onBack();
+        }
     }
 
+    public interface OnBackListeners{
+        void onBack();
+    }
+
+    public void setOnBackListeners(OnBackListeners onBackListeners) {
+        this.onBackListeners = onBackListeners;
+    }
 }
 
 
