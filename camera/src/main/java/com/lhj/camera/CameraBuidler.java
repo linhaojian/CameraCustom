@@ -24,14 +24,16 @@ public class CameraBuidler {
 
     public static void setActivity(CameraActivity cameraActivity){
         activity = cameraActivity;
-        activity.setOnBackListeners(new CameraActivity.OnBackListeners() {
-            @Override
-            public void onBack() {
-                if(onCameraResults!=null){
-                    onCameraResults.onBack(activity);
+        if(activity!=null){
+            activity.setOnBackListeners(new CameraActivity.OnBackListeners() {
+                @Override
+                public void onBack() {
+                    if(onCameraResults!=null){
+                        onCameraResults.onBack(activity);
+                    }
                 }
-            }
-        });
+            });
+        }
     }
 
     public CameraBuidler setOnCameraResults(OnCameraResults onCameraResults){

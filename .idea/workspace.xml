@@ -10,14 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bc0882a-62e9-4ec8-86f5-a7885ba6e4f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/lhj/test/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/lhj/test/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/CameraActivity.java" afterPath="$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/CameraActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/CameraBuidler.java" afterPath="$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/CameraBuidler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/OnCameraResults.java" afterPath="$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/OnCameraResults.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,16 +38,28 @@
       <file leaf-file-name="CameraBuidler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/CameraBuidler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="88" column="29" lean-forward="false" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+            <state relative-caret-position="330">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
                 <element signature="method#CameraBuidler#0;class#CameraBuidler#0" expanded="false" />
-                <element signature="e#712#946#0" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#744#1006#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
                 <element signature="method#buidler#0;class#CameraBuidler#0" expanded="false" />
                 <element signature="method#jugdePermissions#0;class#CameraBuidler#0" expanded="false" />
                 <element signature="method#takePicture#0;class#CameraBuidler#0" expanded="false" />
-                <element signature="method#finish#0;class#CameraBuidler#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/CameraActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+              <folding>
+                <element signature="method#onCreate#0;class#CameraActivity#0" expanded="false" />
+                <element signature="method#onKeyDown#0;class#CameraActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -3091,7 +3096,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523525283039" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523526504345" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3139,7 +3144,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523525283039" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523526504345" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3335,7 +3340,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523525283041" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1523526504349" />
       </method>
     </configuration>
     <list size="1">
@@ -3459,12 +3464,11 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#CameraBuidler#0;class#CameraBuidler#0" expanded="false" />
-            <element signature="e#712#946#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#744#1006#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
             <element signature="method#buidler#0;class#CameraBuidler#0" expanded="false" />
             <element signature="method#jugdePermissions#0;class#CameraBuidler#0" expanded="false" />
             <element signature="method#takePicture#0;class#CameraBuidler#0" expanded="false" />
-            <element signature="method#finish#0;class#CameraBuidler#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3476,7 +3480,6 @@
           <folding>
             <element signature="method#onCreate#0;class#CameraActivity#0" expanded="false" />
             <element signature="method#onKeyDown#0;class#CameraActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#CameraActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3514,12 +3517,11 @@
           <caret line="68" column="35" lean-forward="false" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
           <folding>
             <element signature="method#CameraBuidler#0;class#CameraBuidler#0" expanded="false" />
-            <element signature="e#712#946#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#744#1006#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
             <element signature="method#buidler#0;class#CameraBuidler#0" expanded="false" />
             <element signature="method#jugdePermissions#0;class#CameraBuidler#0" expanded="false" />
             <element signature="method#takePicture#0;class#CameraBuidler#0" expanded="false" />
-            <element signature="method#finish#0;class#CameraBuidler#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3531,7 +3533,6 @@
           <folding>
             <element signature="method#onCreate#0;class#CameraActivity#0" expanded="false" />
             <element signature="method#onKeyDown#0;class#CameraActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#CameraActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3569,12 +3570,11 @@
           <caret line="68" column="35" lean-forward="false" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
           <folding>
             <element signature="method#CameraBuidler#0;class#CameraBuidler#0" expanded="false" />
-            <element signature="e#712#946#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#744#1006#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
             <element signature="method#buidler#0;class#CameraBuidler#0" expanded="false" />
             <element signature="method#jugdePermissions#0;class#CameraBuidler#0" expanded="false" />
             <element signature="method#takePicture#0;class#CameraBuidler#0" expanded="false" />
-            <element signature="method#finish#0;class#CameraBuidler#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3586,7 +3586,6 @@
           <folding>
             <element signature="method#onCreate#0;class#CameraActivity#0" expanded="false" />
             <element signature="method#onKeyDown#0;class#CameraActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#CameraActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3609,7 +3608,6 @@
           <folding>
             <element signature="method#onCreate#0;class#CameraActivity#0" expanded="false" />
             <element signature="method#onKeyDown#0;class#CameraActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#CameraActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3642,7 +3640,6 @@
           <folding>
             <element signature="method#onCreate#0;class#CameraActivity#0" expanded="false" />
             <element signature="method#onKeyDown#0;class#CameraActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#CameraActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3675,7 +3672,6 @@
           <folding>
             <element signature="method#onCreate#0;class#CameraActivity#0" expanded="false" />
             <element signature="method#onKeyDown#0;class#CameraActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#CameraActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3791,13 +3787,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/CameraFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="150" column="36" lean-forward="false" selection-start-line="150" selection-start-column="20" selection-end-line="150" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/camera/src/main/res/mipmap-xhdpi/threesecond.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -3853,18 +3842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/CameraActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="62" column="37" lean-forward="false" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-          <folding>
-            <element signature="method#onCreate#0;class#CameraActivity#0" expanded="false" />
-            <element signature="method#onKeyDown#0;class#CameraActivity#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#CameraActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lhj/test/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -3884,18 +3861,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/CameraFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="862">
+          <caret line="534" column="84" lean-forward="false" selection-start-line="534" selection-start-column="84" selection-end-line="534" selection-end-column="84" />
+          <folding>
+            <element signature="method#onCreateView#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#onViewCreated#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#initUi#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#initListeners#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#onSaveInstanceState#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#getCamera#0;class#CameraFragment#0" expanded="false" />
+            <element signature="docComment;method#startCameraPreview#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#startCameraPreview#0;class#CameraFragment#0" expanded="false" />
+            <element signature="docComment;method#stopCameraPreview#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#stopCameraPreview#0;class#CameraFragment#0" expanded="false" />
+            <element signature="e#10395#10429#0" expanded="false" />
+            <element signature="docComment;method#determineDisplayOrientation#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#determineDisplayOrientation#0;class#CameraFragment#0" expanded="false" />
+            <element signature="e#11460#11522#0" expanded="false" />
+            <element signature="docComment;method#setupCamera#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#setupCamera#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#determineBestPreviewSize#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#determineBestPictureSize#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#determineBestSize#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#restartPreview#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#getFrontCameraID#0;class#CameraFragment#0" expanded="false" />
+            <element signature="docComment;method#takePicture#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#takePicture#0;class#CameraFragment#0" expanded="false" />
+            <element signature="e#15079#15143#0" expanded="false" />
+            <element signature="e#15459#15517#0" expanded="false" />
+            <element signature="method#onStop#0;class#CameraFragment#0" expanded="false" />
+            <element signature="e#16191#16225#0" expanded="false" />
+            <element signature="method#onResume#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#surfaceCreated#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#surfaceChanged#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#surfaceDestroyed#0;class#CameraFragment#0" expanded="false" />
+            <element signature="docComment;method#onPictureTaken#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#onPictureTaken#0;class#CameraFragment#0" expanded="false" />
+            <element signature="docComment;class#CameraOrientationListener#0;class#CameraFragment#0" expanded="false" />
+            <element signature="class#CameraOrientationListener#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#CameraOrientationListener#0;class#CameraOrientationListener#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#onOrientationChanged#0;class#CameraOrientationListener#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#normalize#0;class#CameraOrientationListener#0;class#CameraFragment#0" expanded="false" />
+            <element signature="method#rememberOrientation#0;class#CameraOrientationListener#0;class#CameraFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/android/android-sdk-windows/sources/android-26/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="5503" column="16" lean-forward="false" selection-start-line="5503" selection-start-column="16" selection-end-line="5503" selection-end-column="16" />
+          <folding>
+            <element signature="e#234044#234045#0" expanded="true" />
+            <element signature="e#234098#234099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/CameraActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+          <folding>
+            <element signature="method#onCreate#0;class#CameraActivity#0" expanded="false" />
+            <element signature="method#onKeyDown#0;class#CameraActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/camera/src/main/java/com/lhj/camera/CameraBuidler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="88" column="29" lean-forward="false" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+        <state relative-caret-position="330">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="method#CameraBuidler#0;class#CameraBuidler#0" expanded="false" />
-            <element signature="e#712#946#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#744#1006#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
             <element signature="method#buidler#0;class#CameraBuidler#0" expanded="false" />
             <element signature="method#jugdePermissions#0;class#CameraBuidler#0" expanded="false" />
             <element signature="method#takePicture#0;class#CameraBuidler#0" expanded="false" />
-            <element signature="method#finish#0;class#CameraBuidler#0" expanded="false" />
           </folding>
         </state>
       </provider>
