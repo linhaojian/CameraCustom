@@ -70,4 +70,10 @@ public class CameraBuidler {
         }
     }
 
+    public void finish(){
+        if(activity!=null){
+            activity.finishThis();
+        }
+    }
+
 }
